@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "version": "1902.0.0",
+
+    "id": "luratagview",
+    "name": "Tag Viewer",
+    "description": "Just appends the lists of tags",
+    "authors": [
+        {
+            "name": "Lura Skye"
+        }
+    ],
+    "license": ["MPL-2.0"],
+    "contact": {
+        "issues": "https://github.com/Fuyukai/Lura-Mods"
+    },
+
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            {
+                "value": "tf.veriny.mc.tags.MakeUp",
+                "adapter": "kotlin"
+            }
+        ]
+    },
+
+    "depends": {
+        "java": ">=17",
+        "minecraft": [">=1.19.2", "<1.20"],
+
+        "fabric-api": ">=0.76.0",
+        "fabric-language-kotlin": ">=1.10.0"
+    }
+}
