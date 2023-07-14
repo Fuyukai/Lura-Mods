@@ -1,12 +1,16 @@
 version = "1902.0.0"
 
+dependencies {
+    implementation(include(project(":simple-fujcking-config", configuration = "namedElements"))!!)
+}
+
 publishing {
     publications.create<MavenPublication>("maven") {
         from(components["java"])
 
         pom {
             name.set(project.name)
-            description.set("Tag Viewer")
+            description.set("Tweaks for my modpack")
             url.set("https://github.com/Fuyukai/Lura-Mods")
 
             licenses {

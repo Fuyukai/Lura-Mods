@@ -1,4 +1,9 @@
-version = "1902.0.0"
+version = "0.7.0"
+
+dependencies {
+    api(include("cc.ekblad:4koma:1.2.0")!!)
+    runtimeOnly(include("cc.ekblad.konbini:konbini-jvm:0.1.3")!!)
+}
 
 publishing {
     publications.create<MavenPublication>("maven") {
@@ -6,7 +11,7 @@ publishing {
 
         pom {
             name.set(project.name)
-            description.set("Tag Viewer")
+            description.set("I hate config mods! I hate config mods!")
             url.set("https://github.com/Fuyukai/Lura-Mods")
 
             licenses {

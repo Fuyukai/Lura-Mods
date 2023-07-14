@@ -21,7 +21,18 @@ All of these are available on my Maven:
         }
     }
 
+Simple Fujcking Config
+----------------------
+
+Tiny, embed-only, both-sides config library. Because I hate that there's a million libs that use
+fucking annotations everywhere. No config GUI for you!
+
 Tag View
 --------
 
 EMI is very stingy about showing tags so this just adds a list of them to the tooltip.
+
+TBA Tweaks
+----------
+
+Various miscellaneous tweaks for my upcoming modpack, packaged into a single mod.

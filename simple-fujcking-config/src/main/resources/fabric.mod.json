@@ -1,0 +1,17 @@
+{
+    "schemaVersion": 1,
+    "id": "simplefujckingconfig",
+    "name": "Simple Fujcking Config",
+    "version": "0.7.0",
+
+    "depends": {
+        "java": ">=17",
+        "fabric-language-kotlin": "*"
+    },
+
+    "custom": {
+        "modmenu": {
+            "badges": ["library"]
+        }
+    }
+}

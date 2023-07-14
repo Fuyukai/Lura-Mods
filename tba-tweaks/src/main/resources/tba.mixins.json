@@ -1,0 +1,12 @@
+{
+    "package": "tf.veriny.mc.tba.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "heightlimit.HigherCactusGrowthLimit",
+        "heightlimit.HigherReedsGrowthLimit",
+        "nohumans.EntityKillerOptimisationMixin",
+        "nohumans.OhkoThemAnywayMixin",
+        "nohumans.PreventGolemFormation",
+        "nohumans.PreventSpawningMixin"
+    ]
+}

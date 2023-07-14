@@ -1,0 +1,38 @@
+{
+    "schemaVersion": 1,
+    "version": "1902.0.0",
+
+    "id": "nijika",
+    "name": "TBA Tweaks",
+    "description": "Minor tweaks for the TBA pack.",
+    "authors": [
+        {
+            "name": "Lura Skye"
+        }
+    ],
+    "license": ["MPL-2.0"],
+    "contact": {
+        "issues": "https://github.com/Fuyukai/Lura-Mods"
+    },
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            {
+                "value": "tf.veriny.mc.tweaks.MakeUp",
+                "adapter": "kotlin"
+            }
+        ]
+    },
+
+    "mixins": ["tba.mixins.json"],
+
+    "depends": {
+        "java": ">=17",
+        "minecraft": [">=1.19.2", "<1.20"],
+
+        "fabric-api": ">=0.76.0",
+        "fabric-language-kotlin": ">=1.10.0",
+        "simplefujckingconfig": "*"
+    }
+}

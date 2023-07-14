@@ -28,3 +28,5 @@ pluginManagement {
 }
 
 include(":lura-tagview")
+include(":simple-fujcking-config")
+include(":tba-tweaks")
