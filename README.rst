@@ -1,6 +1,8 @@
 Lura Mods
 =========
 
+*This is the 1.20 branch.*
+
 This is a small handful of quick-n-dirty Fabric mods that I made for things I needed. Just
 build them locally and bundle them directly into your pack's mrpack.
 

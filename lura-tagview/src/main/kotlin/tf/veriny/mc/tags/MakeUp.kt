@@ -7,7 +7,7 @@ import net.minecraft.client.item.TooltipContext
 import net.minecraft.client.util.InputUtil
 import net.minecraft.item.BlockItem
 import net.minecraft.item.ItemStack
-import net.minecraft.tag.TagKey
+import net.minecraft.registry.tag.TagKey
 import net.minecraft.text.Text
 import net.minecraft.text.TextColor
 import net.minecraft.util.Formatting

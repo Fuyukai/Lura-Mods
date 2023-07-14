@@ -1,4 +1,4 @@
-version = "1902.0.0"
+version = "2001.0.0"
 
 publishing {
     publications.create<MavenPublication>("maven") {

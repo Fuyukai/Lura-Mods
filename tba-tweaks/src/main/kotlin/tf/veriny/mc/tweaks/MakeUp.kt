@@ -3,9 +3,9 @@ package tf.veriny.mc.tweaks
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.EndDataPackReload
+import net.minecraft.registry.Registries
 import net.minecraft.resource.LifecycledResourceManager
 import net.minecraft.server.MinecraftServer
-import net.minecraft.util.registry.Registry
 import tf.veriny.mc.sfc.SimpleConfig
 import tf.veriny.mc.tba.EntityKillerOptimisation
 
@@ -31,7 +31,7 @@ public object MakeUp : ModInitializer, EndDataPackReload {
         }
 
         // go through every entity type and unmark safe
-        for ((k, v) in Registry.ENTITY_TYPE.entrySet) {
+        for ((k, v) in Registries.ENTITY_TYPE.entrySet) {
             if (v !is EntityKillerOptimisation) continue
             v.`tba$markChecked`(false)
         }

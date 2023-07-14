@@ -32,14 +32,14 @@ subprojects {
 
 
     dependencies {
-        "minecraft"("com.mojang:minecraft:1.19.2")
+        "minecraft"("com.mojang:minecraft:1.20.1")
 
         "mappings"(loom.layered {
-            mappings("net.fabricmc:yarn:1.19.2+build.28:v2")
+            mappings("net.fabricmc:yarn:1.20.1+build.9:v2")
         })
 
         "modImplementation"("net.fabricmc:fabric-loader:0.14.21")
-        "modImplementation"("net.fabricmc.fabric-api:fabric-api:0.76.0+1.19.2")
+        "modImplementation"("net.fabricmc.fabric-api:fabric-api:0.85.0+1.20.1")
         "modImplementation"("net.fabricmc:fabric-language-kotlin:1.10.0+kotlin.1.9.0")
     }
 }
