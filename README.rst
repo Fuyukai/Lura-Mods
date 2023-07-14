@@ -36,3 +36,8 @@ TBA Tweaks
 ----------
 
 Various miscellaneous tweaks for my upcoming modpack, packaged into a single mod.
+
+- Makes cactus and sugar cane grow higher. Yay!
+- Allows disabling mob spawns (configurable). Stops them from spawning and OHKOs any mobs in the
+  world to maximise effectiveness. This replaces the badly licensed and non-functional You Shall
+  Not Spawn mod.
