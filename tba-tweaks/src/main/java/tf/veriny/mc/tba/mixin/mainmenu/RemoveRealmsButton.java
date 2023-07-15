@@ -17,7 +17,7 @@ public class RemoveRealmsButton extends Screen {
         super(title);
     }
 
-    @Inject(method = "areRealmsNotificationsEnabled", at = @At("HEAD"), cancellable = true)
+    @Inject(method = "isRealmsNotificationsGuiDisplayed", at = @At("HEAD"), cancellable = true)
     void hijackRealmsNotifs(CallbackInfoReturnable<Boolean> cir) {
         cir.setReturnValue(false);
     }
@@ -32,6 +32,8 @@ public class RemoveRealmsButton extends Screen {
     )
     Element dontAddRealmsButton(TitleScreen instance, Element element) {
         // we do have to actually return an element so we just return a dummy one.
-        return new ButtonWidget(0, 0, 0, 0, Text.empty(), null);
+        // thanks
+
+        return ButtonWidget.builder(null, null).build();
     }
 }
