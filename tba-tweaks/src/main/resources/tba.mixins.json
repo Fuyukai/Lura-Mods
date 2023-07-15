@@ -8,5 +8,8 @@
         "nohumans.OhkoThemAnywayMixin",
         "nohumans.PreventGolemFormation",
         "nohumans.PreventSpawningMixin"
+    ],
+    "client": [
+        "mainmenu.RemoveRealmsButton"
     ]
 }
