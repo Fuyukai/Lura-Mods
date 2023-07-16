@@ -13,6 +13,7 @@ import net.fabricmc.loom.api.LoomGradleExtensionAPI
 plugins {
     id("fabric-loom").version("1.3.8").apply(false)
     id("io.github.juuxel.loom-vineflower").version("1.11.0").apply(false)
+    id("tf.veriny.gradle.base-plugin").version("0.7.0").apply(false)
 }
 
 allprojects {
@@ -21,7 +22,7 @@ allprojects {
 
 
 subprojects {
-    apply(plugin = "base-plugin")
+    apply(plugin = "tf.veriny.gradle.base-plugin")
     apply(plugin = "fabric-loom")
     apply(plugin = "io.github.juuxel.loom-vineflower")
 
